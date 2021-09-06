@@ -18,11 +18,11 @@ class Child(Parent):
         super().__init__()
         print("Child 클래스의 __init__ 메서드가 호출되었습니다.")
 
-
+  
 child = Child()
 print()
 
 child.test()
 print()
 
-print(child.value)
+print(child.value)  
