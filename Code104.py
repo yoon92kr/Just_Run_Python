@@ -10,4 +10,4 @@ family_df['나이'].fillna(mean_age, inplace=True)
 
 
 family_df.to_csv('가족.csv', index= False)
-family_df.to_json('가족.json')
+family_df.to_json('가족.json') 
